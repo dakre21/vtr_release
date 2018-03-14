@@ -1,0 +1,1 @@
+3/13/18 - ODIN's simulate_bliff.h header file to declare functions straightup (no inline).. with gcc5.0+ this is forbidden and will fail compilation
