@@ -1,0 +1,45 @@
+# Path to directory of circuits to use
+circuits_dir=benchmarks/ece506_blif
+
+# Path to directory of architectures to use
+archs_dir=arch/power
+
+# Add circuits to list to sweep
+circuit_list_add=diffeq.blif
+channel_width_list_add=78
+circuit_list_add=tseng.blif
+channel_width_list_add=70
+circuit_list_add=sha.blif
+channel_width_list_add=86
+
+#circuit_list_add=blob_merge.blif
+#channel_width_list_add=114
+#circuit_list_add=stereovision0.blif
+#channel_width_list_add=98
+#circuit_list_add=s38417.blif
+#channel_width_list_add=70
+#circuit_list_add=frisc.blif
+#channel_width_list_add=120
+#circuit_list_add=elliptic.blif
+#channel_width_list_add=60
+#circuit_list_add=ex1010.blif
+#circuit_list_add=spla.blif
+#circuit_list_add=ex5p.blif
+#circuit_list_add=apex2.blif
+#circuit_list_add=s298.blif
+
+# Add architectures to list to sweep
+# Sweep fs (3-21)
+arch_list_add=k4-n10-i22-fs15-fcin0.25-fcout1.0-l4.xml
+
+# Parameters for vtr flow
+script_params= -no_mem -starting_stage abc -check_equivalent -keep_intermediate_files -power
+
+# Pass requirements
+pass_requirements_file=pass_requirements.txt
+
+# Spice technology input parameters
+cmos_tech_behavior=PTM_130nm/130nm.xml
+
+# Parse info and how to parse
+parse_file=vpr_wirelength.txt
