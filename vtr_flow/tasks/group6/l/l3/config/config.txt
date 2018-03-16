@@ -13,8 +13,6 @@ circuit_list_add=sha.blif
 channel_width_list_add=86
 circuit_list_add=stereovision0.blif
 channel_width_list_add=98
-circuit_list_add=stereovision0.blif
-channel_width_list_add=98
 
 #circuit_list_add=blob_merge.blif
 #channel_width_list_add=114

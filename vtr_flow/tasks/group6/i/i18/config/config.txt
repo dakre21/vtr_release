@@ -32,7 +32,7 @@ channel_width_list_add=98
 
 # Add architectures to list to sweep
 # Sweep i (4-40)
-arch_list_add=k4-n36-i4-fs3-fcin0.25-fcout1.0-l4.xml
+arch_list_add=k4-n10-i36-fs3-fcin0.25-fcout1.0-l4.xml
 
 # Parameters for vtr flow
 script_params= -no_mem -starting_stage abc -check_equivalent -keep_intermediate_files -power
